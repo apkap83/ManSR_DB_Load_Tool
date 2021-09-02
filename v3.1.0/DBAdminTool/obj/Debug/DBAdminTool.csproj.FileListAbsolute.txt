@@ -1,0 +1,126 @@
+c:\users\diamantisk\documents\visual studio 2015\Projects\DBAdminTool\DBAdminTool\bin\Debug\DBAdminTool.exe.config
+c:\users\diamantisk\documents\visual studio 2015\Projects\DBAdminTool\DBAdminTool\bin\Debug\DBAdminTool.exe
+c:\users\diamantisk\documents\visual studio 2015\Projects\DBAdminTool\DBAdminTool\bin\Debug\DBAdminTool.pdb
+c:\users\diamantisk\documents\visual studio 2015\Projects\DBAdminTool\DBAdminTool\bin\Debug\MySql.Data.dll
+c:\users\diamantisk\documents\visual studio 2015\Projects\DBAdminTool\DBAdminTool\obj\Debug\DBAdminTool.csprojResolveAssemblyReference.cache
+c:\users\diamantisk\documents\visual studio 2015\Projects\DBAdminTool\DBAdminTool\obj\Debug\DBAdminTool.csproj.ResolveComReference.cache
+c:\users\diamantisk\documents\visual studio 2015\Projects\DBAdminTool\DBAdminTool\obj\Debug\DBAdminTool.Properties.Resources.resources
+c:\users\diamantisk\documents\visual studio 2015\Projects\DBAdminTool\DBAdminTool\obj\Debug\DBAdminTool.csproj.GenerateResource.Cache
+c:\users\diamantisk\documents\visual studio 2015\Projects\DBAdminTool\DBAdminTool\obj\Debug\DBAdminTool.exe
+c:\users\diamantisk\documents\visual studio 2015\Projects\DBAdminTool\DBAdminTool\obj\Debug\DBAdminTool.pdb
+c:\users\diamantisk\documents\visual studio 2015\Projects\DBAdminTool\DBAdminTool\obj\Debug\DBAdminTool.Form1.resources
+C:\Users\DiamantisK\Documents\Visual Studio 2015\Projects\DBAdminTool\DBAdminTool\bin\Debug\MySqlBackup.dll
+\\psf\Home\Documents\Visual Studio 2015\Projects\DBAdminTool\DBAdminTool\bin\Debug\DBAdminTool.exe.config
+\\psf\Home\Documents\Visual Studio 2015\Projects\DBAdminTool\DBAdminTool\obj\Debug\DBAdminTool.csproj.ResolveComReference.cache
+\\psf\Home\Documents\Visual Studio 2015\Projects\DBAdminTool\DBAdminTool\obj\Debug\DBAdminTool.exe
+\\psf\Home\Documents\Visual Studio 2015\Projects\DBAdminTool\DBAdminTool\obj\Debug\DBAdminTool.pdb
+\\psf\Home\Documents\Visual Studio 2015\Projects\DBAdminTool\DBAdminTool\bin\Debug\DBAdminTool.exe
+\\psf\Home\Documents\Visual Studio 2015\Projects\DBAdminTool\DBAdminTool\bin\Debug\DBAdminTool.pdb
+\\psf\Home\Documents\Visual Studio 2015\Projects\DBAdminTool\DBAdminTool\bin\Debug\MySql.Data.dll
+\\psf\Home\Documents\Visual Studio 2015\Projects\DBAdminTool\DBAdminTool\bin\Debug\MySqlBackup.dll
+\\psf\Home\Documents\Visual Studio 2015\Projects\DBAdminTool\DBAdminTool\obj\Debug\DBAdminTool.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\Visual Studio 2015\Projects\DBAdminTool\DBAdminTool\obj\Debug\DBAdminTool.Form1.resources
+\\psf\Home\Documents\Visual Studio 2015\Projects\DBAdminTool\DBAdminTool\obj\Debug\DBAdminTool.Properties.Resources.resources
+\\psf\Home\Documents\Visual Studio 2015\Projects\DBAdminTool\DBAdminTool\obj\Debug\DBAdminTool.csproj.GenerateResource.Cache
+X:\WorkSpacesVisualStudio\Repositories\DBAdminTool\v3.0.0\DBAdminTool\bin\Debug\DBAdminTool.exe.config
+X:\WorkSpacesVisualStudio\Repositories\DBAdminTool\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.ResolveComReference.cache
+X:\WorkSpacesVisualStudio\Repositories\DBAdminTool\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.exe
+X:\WorkSpacesVisualStudio\Repositories\DBAdminTool\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.pdb
+X:\WorkSpacesVisualStudio\Repositories\DBAdminTool\v3.0.0\DBAdminTool\bin\Debug\DBAdminTool.exe
+X:\WorkSpacesVisualStudio\Repositories\DBAdminTool\v3.0.0\DBAdminTool\bin\Debug\DBAdminTool.pdb
+X:\WorkSpacesVisualStudio\Repositories\DBAdminTool\v3.0.0\DBAdminTool\bin\Debug\MySql.Data.dll
+X:\WorkSpacesVisualStudio\Repositories\DBAdminTool\v3.0.0\DBAdminTool\bin\Debug\MySqlBackup.dll
+X:\WorkSpacesVisualStudio\Repositories\DBAdminTool\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.csprojResolveAssemblyReference.cache
+X:\WorkSpacesVisualStudio\Repositories\DBAdminTool\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.Form1.resources
+X:\WorkSpacesVisualStudio\Repositories\DBAdminTool\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.Properties.Resources.resources
+X:\WorkSpacesVisualStudio\Repositories\DBAdminTool\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.GenerateResource.Cache
+C:\Users\nmclaptop\Desktop\New folder (2)\v3.0.0\DBAdminTool\bin\Debug\DBAdminTool.exe.config
+C:\Users\nmclaptop\Desktop\New folder (2)\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.ResolveComReference.cache
+C:\Users\nmclaptop\Desktop\New folder (2)\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.exe
+C:\Users\nmclaptop\Desktop\New folder (2)\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.pdb
+C:\Users\nmclaptop\Desktop\New folder (2)\v3.0.0\DBAdminTool\bin\Debug\DBAdminTool.exe
+C:\Users\nmclaptop\Desktop\New folder (2)\v3.0.0\DBAdminTool\bin\Debug\DBAdminTool.pdb
+C:\Users\nmclaptop\Desktop\New folder (2)\v3.0.0\DBAdminTool\bin\Debug\MySql.Data.dll
+C:\Users\nmclaptop\Desktop\New folder (2)\v3.0.0\DBAdminTool\bin\Debug\MySqlBackup.dll
+C:\Users\nmclaptop\Desktop\New folder (2)\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.csprojResolveAssemblyReference.cache
+C:\Users\nmclaptop\Desktop\New folder (2)\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.Form1.resources
+C:\Users\nmclaptop\Desktop\New folder (2)\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.Properties.Resources.resources
+C:\Users\nmclaptop\Desktop\New folder (2)\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.GenerateResource.Cache
+D:\Not to be modified\svn\v3.0.0\DBAdminTool\bin\Debug\DBAdminTool.exe.config
+D:\Not to be modified\svn\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.ResolveComReference.cache
+D:\Not to be modified\svn\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.exe
+D:\Not to be modified\svn\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.pdb
+D:\Not to be modified\svn\v3.0.0\DBAdminTool\bin\Debug\DBAdminTool.exe
+D:\Not to be modified\svn\v3.0.0\DBAdminTool\bin\Debug\DBAdminTool.pdb
+D:\Not to be modified\svn\v3.0.0\DBAdminTool\bin\Debug\MySql.Data.dll
+D:\Not to be modified\svn\v3.0.0\DBAdminTool\bin\Debug\MySqlBackup.dll
+D:\Not to be modified\svn\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.csprojResolveAssemblyReference.cache
+D:\Not to be modified\svn\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.Form1.resources
+D:\Not to be modified\svn\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.Properties.Resources.resources
+D:\Not to be modified\svn\v3.0.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.GenerateResource.Cache
+C:\Users\AP.KAPETANIOS\Desktop\DIAMANTIS\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.exe.config
+C:\Users\AP.KAPETANIOS\Desktop\DIAMANTIS\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.ResolveComReference.cache
+C:\Users\AP.KAPETANIOS\Desktop\DIAMANTIS\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.exe
+C:\Users\AP.KAPETANIOS\Desktop\DIAMANTIS\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.pdb
+C:\Users\AP.KAPETANIOS\Desktop\DIAMANTIS\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.exe
+C:\Users\AP.KAPETANIOS\Desktop\DIAMANTIS\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.pdb
+C:\Users\AP.KAPETANIOS\Desktop\DIAMANTIS\v3.1.0\DBAdminTool\bin\Debug\MySql.Data.dll
+C:\Users\AP.KAPETANIOS\Desktop\DIAMANTIS\v3.1.0\DBAdminTool\bin\Debug\MySqlBackup.dll
+C:\Users\AP.KAPETANIOS\Desktop\DIAMANTIS\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csprojResolveAssemblyReference.cache
+C:\Users\AP.KAPETANIOS\Desktop\DIAMANTIS\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.Form1.resources
+C:\Users\AP.KAPETANIOS\Desktop\DIAMANTIS\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.Properties.Resources.resources
+C:\Users\AP.KAPETANIOS\Desktop\DIAMANTIS\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.GenerateResource.Cache
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.exe.config
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.ResolveComReference.cache
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.exe
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.pdb
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.exe
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.pdb
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1\v3.1.0\DBAdminTool\bin\Debug\MySql.Data.dll
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1\v3.1.0\DBAdminTool\bin\Debug\MySqlBackup.dll
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csprojResolveAssemblyReference.cache
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.Form1.resources
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.Properties.Resources.resources
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.GenerateResource.Cache
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1 - Copy\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.exe.config
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1 - Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.ResolveComReference.cache
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1 - Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.exe
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1 - Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.pdb
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1 - Copy\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.exe
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1 - Copy\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.pdb
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1 - Copy\v3.1.0\DBAdminTool\bin\Debug\MySql.Data.dll
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1 - Copy\v3.1.0\DBAdminTool\bin\Debug\MySqlBackup.dll
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1 - Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csprojResolveAssemblyReference.cache
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1 - Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.Form1.resources
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1 - Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.Properties.Resources.resources
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_1 - Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.GenerateResource.Cache
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.exe.config
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.ResolveComReference.cache
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.exe
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.pdb
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.exe
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.pdb
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\bin\Debug\MySql.Data.dll
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\bin\Debug\MySqlBackup.dll
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csprojResolveAssemblyReference.cache
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.Form1.resources
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.Properties.Resources.resources
+D:\CompanyData\Visual Studio 2013\Projects\MANSR_DB167_ver_1\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.GenerateResource.Cache
+D:\CompanyData\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.exe.config
+D:\CompanyData\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.ResolveComReference.cache
+D:\CompanyData\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.exe
+D:\CompanyData\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.pdb
+C:\Company_Data\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2_Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csprojAssemblyReference.cache
+C:\Company_Data\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2_Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.exe
+C:\Company_Data\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2_Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.pdb
+C:\Company_Data\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2_Copy\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.exe.config
+C:\Company_Data\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2_Copy\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.exe
+C:\Company_Data\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2_Copy\v3.1.0\DBAdminTool\bin\Debug\DBAdminTool.pdb
+C:\Company_Data\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2_Copy\v3.1.0\DBAdminTool\bin\Debug\MySql.Data.dll
+C:\Company_Data\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2_Copy\v3.1.0\DBAdminTool\bin\Debug\MySqlBackup.dll
+C:\Company_Data\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2_Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.ResolveComReference.cache
+C:\Company_Data\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2_Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.Form1.resources
+C:\Company_Data\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2_Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.Properties.Resources.resources
+C:\Company_Data\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2_Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.GenerateResource.cache
+C:\Company_Data\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2_Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.CoreCompileInputs.cache
+C:\Company_Data\Visual Studio 2013\Projects\DB_Admin_Tool_ver_2_Copy\v3.1.0\DBAdminTool\obj\Debug\DBAdminTool.csproj.CopyComplete
