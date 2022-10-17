@@ -435,66 +435,66 @@ namespace DBAdminTool
                 mycmt2go.Prepare();
                 mycmt2go.CommandText = String.Format("insert into total_operational_2G(DateOfReport,Antenna,CosmotePowerProblem,Disinfection,FiberCut,GeneratorFailure,Link,LinkDueToPowerProblem,OTEProblem,PowerProblem,PPCPowerFailure,Quality,RBSProblem,Temperature,VodafoneLinkProblem,VodafonePowerProblem,Modem) values (?date4_para,?p1,?p2,?p3,?p4,?p5,?p6,?p7,?p8,?p9,?p10,?p11,?p12,?p13,?p14,?p15,?p16)");
                 mycmt2go.Parameters.AddWithValue("?date4_para", localdate);
-                mycmt2go.Parameters.AddWithValue("?p1", int.Parse((Range2.Cells[72, 3] as Excel.Range).Text));
-                mycmt2go.Parameters.AddWithValue("?p2", int.Parse((Range2.Cells[73, 3] as Excel.Range).Text));
-                mycmt2go.Parameters.AddWithValue("?p3", int.Parse((Range2.Cells[74, 3] as Excel.Range).Text));
-                mycmt2go.Parameters.AddWithValue("?p4", int.Parse((Range2.Cells[75, 3] as Excel.Range).Text));
-                mycmt2go.Parameters.AddWithValue("?p5", int.Parse((Range2.Cells[76, 3] as Excel.Range).Text));
-                mycmt2go.Parameters.AddWithValue("?p6", int.Parse((Range2.Cells[77, 3] as Excel.Range).Text));
-                mycmt2go.Parameters.AddWithValue("?p7", int.Parse((Range2.Cells[78, 3] as Excel.Range).Text));
-                mycmt2go.Parameters.AddWithValue("?p8", int.Parse((Range2.Cells[79, 3] as Excel.Range).Text));
-                mycmt2go.Parameters.AddWithValue("?p9", int.Parse((Range2.Cells[80, 3] as Excel.Range).Text));
-                mycmt2go.Parameters.AddWithValue("?p10", int.Parse((Range2.Cells[81, 3] as Excel.Range).Text));
-                mycmt2go.Parameters.AddWithValue("?p11", int.Parse((Range2.Cells[82, 3] as Excel.Range).Text));
-                mycmt2go.Parameters.AddWithValue("?p12", int.Parse((Range2.Cells[83, 3] as Excel.Range).Text));
-                mycmt2go.Parameters.AddWithValue("?p13", int.Parse((Range2.Cells[84, 3] as Excel.Range).Text));
-                mycmt2go.Parameters.AddWithValue("?p14", int.Parse((Range2.Cells[85, 3] as Excel.Range).Text));
-                mycmt2go.Parameters.AddWithValue("?p15", int.Parse((Range2.Cells[86, 3] as Excel.Range).Text));
-                mycmt2go.Parameters.AddWithValue("?p16", int.Parse((Range2.Cells[87, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p1", int.Parse((Range2.Cells[75, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p2", int.Parse((Range2.Cells[76, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p3", int.Parse((Range2.Cells[77, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p4", int.Parse((Range2.Cells[78, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p5", int.Parse((Range2.Cells[79, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p6", int.Parse((Range2.Cells[80, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p7", int.Parse((Range2.Cells[81, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p8", int.Parse((Range2.Cells[82, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p9", int.Parse((Range2.Cells[83, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p10", int.Parse((Range2.Cells[84, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p11", int.Parse((Range2.Cells[85, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p12", int.Parse((Range2.Cells[86, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p13", int.Parse((Range2.Cells[87, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p14", int.Parse((Range2.Cells[88, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p15", int.Parse((Range2.Cells[89, 3] as Excel.Range).Text));
+                mycmt2go.Parameters.AddWithValue("?p16", int.Parse((Range2.Cells[90, 3] as Excel.Range).Text));
                 mycmt2go.ExecuteNonQuery();
                 mycmt2go.Parameters.Clear();
 
                 mycmt3go.Prepare();
                 mycmt3go.CommandText = String.Format("insert into total_operational_3G(DateOfReport,Antenna,CosmotePowerProblem,Disinfection,FiberCut,GeneratorFailure,Link,LinkDueToPowerProblem,OTEProblem,PowerProblem,PPCPowerFailure,Quality,RBSProblem,Temperature,VodafoneLinkProblem,VodafonePowerProblem,Modem) values (?date4_para,?p1,?p2,?p3,?p4,?p5,?p6,?p7,?p8,?p9,?p10,?p11,?p12,?p13,?p14,?p15,?p16)");
                 mycmt3go.Parameters.AddWithValue("?date4_para", localdate);
-                mycmt3go.Parameters.AddWithValue("?p1", int.Parse((Range2.Cells[91, 3] as Excel.Range).Text));
-                mycmt3go.Parameters.AddWithValue("?p2", int.Parse((Range2.Cells[92, 3] as Excel.Range).Text));
-                mycmt3go.Parameters.AddWithValue("?p3", int.Parse((Range2.Cells[93, 3] as Excel.Range).Text));
-                mycmt3go.Parameters.AddWithValue("?p4", int.Parse((Range2.Cells[94, 3] as Excel.Range).Text));
-                mycmt3go.Parameters.AddWithValue("?p5", int.Parse((Range2.Cells[95, 3] as Excel.Range).Text));
-                mycmt3go.Parameters.AddWithValue("?p6", int.Parse((Range2.Cells[96, 3] as Excel.Range).Text));
-                mycmt3go.Parameters.AddWithValue("?p7", int.Parse((Range2.Cells[97, 3] as Excel.Range).Text));
-                mycmt3go.Parameters.AddWithValue("?p8", int.Parse((Range2.Cells[98, 3] as Excel.Range).Text));
-                mycmt3go.Parameters.AddWithValue("?p9", int.Parse((Range2.Cells[99, 3] as Excel.Range).Text));
-                mycmt3go.Parameters.AddWithValue("?p10", int.Parse((Range2.Cells[100, 3] as Excel.Range).Text));
-                mycmt3go.Parameters.AddWithValue("?p11", int.Parse((Range2.Cells[101, 3] as Excel.Range).Text));
-                mycmt3go.Parameters.AddWithValue("?p12", int.Parse((Range2.Cells[102, 3] as Excel.Range).Text));
-                mycmt3go.Parameters.AddWithValue("?p13", int.Parse((Range2.Cells[103, 3] as Excel.Range).Text));
-                mycmt3go.Parameters.AddWithValue("?p14", int.Parse((Range2.Cells[104, 3] as Excel.Range).Text));
-                mycmt3go.Parameters.AddWithValue("?p15", int.Parse((Range2.Cells[105, 3] as Excel.Range).Text));
-                mycmt3go.Parameters.AddWithValue("?p16", int.Parse((Range2.Cells[106, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p1", int.Parse((Range2.Cells[94, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p2", int.Parse((Range2.Cells[95, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p3", int.Parse((Range2.Cells[96, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p4", int.Parse((Range2.Cells[97, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p5", int.Parse((Range2.Cells[98, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p6", int.Parse((Range2.Cells[99, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p7", int.Parse((Range2.Cells[100, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p8", int.Parse((Range2.Cells[101, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p9", int.Parse((Range2.Cells[102, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p10", int.Parse((Range2.Cells[103, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p11", int.Parse((Range2.Cells[104, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p12", int.Parse((Range2.Cells[105, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p13", int.Parse((Range2.Cells[106, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p14", int.Parse((Range2.Cells[107, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p15", int.Parse((Range2.Cells[108, 3] as Excel.Range).Text));
+                mycmt3go.Parameters.AddWithValue("?p16", int.Parse((Range2.Cells[109, 3] as Excel.Range).Text));
                 mycmt3go.ExecuteNonQuery();
                 mycmt3go.Parameters.Clear();
 
                 mycmt4go.Prepare();
                 mycmt4go.CommandText = String.Format("insert into total_operational_4G(DateOfReport,Antenna,CosmotePowerProblem,Disinfection,FiberCut,GeneratorFailure,Link,LinkDueToPowerProblem,OTEProblem,PowerProblem,PPCPowerFailure,Quality,RBSProblem,Temperature,VodafoneLinkProblem,VodafonePowerProblem,Modem) values (?date4_para,?p1,?p2,?p3,?p4,?p5,?p6,?p7,?p8,?p9,?p10,?p11,?p12,?p13,?p14,?p15,?p16)");
                 mycmt4go.Parameters.AddWithValue("?date4_para", localdate);
-                mycmt4go.Parameters.AddWithValue("?p1", int.Parse((Range2.Cells[110, 3] as Excel.Range).Text));
-                mycmt4go.Parameters.AddWithValue("?p2", int.Parse((Range2.Cells[111, 3] as Excel.Range).Text));
-                mycmt4go.Parameters.AddWithValue("?p3", int.Parse((Range2.Cells[112, 3] as Excel.Range).Text));
-                mycmt4go.Parameters.AddWithValue("?p4", int.Parse((Range2.Cells[113, 3] as Excel.Range).Text));
-                mycmt4go.Parameters.AddWithValue("?p5", int.Parse((Range2.Cells[114, 3] as Excel.Range).Text));
-                mycmt4go.Parameters.AddWithValue("?p6", int.Parse((Range2.Cells[115, 3] as Excel.Range).Text));
-                mycmt4go.Parameters.AddWithValue("?p7", int.Parse((Range2.Cells[116, 3] as Excel.Range).Text));
-                mycmt4go.Parameters.AddWithValue("?p8", int.Parse((Range2.Cells[117, 3] as Excel.Range).Text));
-                mycmt4go.Parameters.AddWithValue("?p9", int.Parse((Range2.Cells[118, 3] as Excel.Range).Text));
-                mycmt4go.Parameters.AddWithValue("?p10", int.Parse((Range2.Cells[119, 3] as Excel.Range).Text));
-                mycmt4go.Parameters.AddWithValue("?p11", int.Parse((Range2.Cells[120, 3] as Excel.Range).Text));
-                mycmt4go.Parameters.AddWithValue("?p12", int.Parse((Range2.Cells[121, 3] as Excel.Range).Text));
-                mycmt4go.Parameters.AddWithValue("?p13", int.Parse((Range2.Cells[122, 3] as Excel.Range).Text));
-                mycmt4go.Parameters.AddWithValue("?p14", int.Parse((Range2.Cells[123, 3] as Excel.Range).Text));
-                mycmt4go.Parameters.AddWithValue("?p15", int.Parse((Range2.Cells[124, 3] as Excel.Range).Text));
-                mycmt4go.Parameters.AddWithValue("?p16", int.Parse((Range2.Cells[125, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p1", int.Parse((Range2.Cells[113, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p2", int.Parse((Range2.Cells[114, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p3", int.Parse((Range2.Cells[115, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p4", int.Parse((Range2.Cells[116, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p5", int.Parse((Range2.Cells[117, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p6", int.Parse((Range2.Cells[118, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p7", int.Parse((Range2.Cells[119, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p8", int.Parse((Range2.Cells[120, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p9", int.Parse((Range2.Cells[121, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p10", int.Parse((Range2.Cells[122, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p11", int.Parse((Range2.Cells[123, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p12", int.Parse((Range2.Cells[124, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p13", int.Parse((Range2.Cells[125, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p14", int.Parse((Range2.Cells[126, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p15", int.Parse((Range2.Cells[127, 3] as Excel.Range).Text));
+                mycmt4go.Parameters.AddWithValue("?p16", int.Parse((Range2.Cells[128, 3] as Excel.Range).Text));
                 mycmt4go.ExecuteNonQuery();
                 mycmt4go.Parameters.Clear();
 
@@ -503,60 +503,60 @@ namespace DBAdminTool
                 mycmt2gr.Prepare();
                 mycmt2gr.CommandText = String.Format("insert into total_retention_2G(DateOfReport,Access,Antenna,Cabinet,DisasterDueToFire,DisasterDueToFlood,OwnerReaction,PeopleReaction,PPCIntention,Renovation,Shelter,Thievery,UnpaidBill,Vandalism,Reengineering) values (?date7_para,?f1,?f2,?f3,?f4,?f5,?f6,?f7,?f8,?f9,?f10,?f11,?f12,?f13,?f14)");
                 mycmt2gr.Parameters.AddWithValue("?date7_para", localdate);
-                mycmt2gr.Parameters.AddWithValue("?f1", int.Parse((Range2.Cells[21, 3] as Excel.Range).Text));
-                mycmt2gr.Parameters.AddWithValue("?f2", int.Parse((Range2.Cells[22, 3] as Excel.Range).Text));
-                mycmt2gr.Parameters.AddWithValue("?f3", int.Parse((Range2.Cells[23, 3] as Excel.Range).Text));
-                mycmt2gr.Parameters.AddWithValue("?f4", int.Parse((Range2.Cells[24, 3] as Excel.Range).Text));
-                mycmt2gr.Parameters.AddWithValue("?f5", int.Parse((Range2.Cells[25, 3] as Excel.Range).Text));
-                mycmt2gr.Parameters.AddWithValue("?f6", int.Parse((Range2.Cells[26, 3] as Excel.Range).Text));
-                mycmt2gr.Parameters.AddWithValue("?f7", int.Parse((Range2.Cells[27, 3] as Excel.Range).Text));
-                mycmt2gr.Parameters.AddWithValue("?f8", int.Parse((Range2.Cells[28, 3] as Excel.Range).Text));
-                mycmt2gr.Parameters.AddWithValue("?f9", int.Parse((Range2.Cells[29, 3] as Excel.Range).Text));
-                mycmt2gr.Parameters.AddWithValue("?f10", int.Parse((Range2.Cells[30, 3] as Excel.Range).Text));
-                mycmt2gr.Parameters.AddWithValue("?f11", int.Parse((Range2.Cells[31, 3] as Excel.Range).Text));
-                mycmt2gr.Parameters.AddWithValue("?f12", int.Parse((Range2.Cells[32, 3] as Excel.Range).Text));
-                mycmt2gr.Parameters.AddWithValue("?f13", int.Parse((Range2.Cells[33, 3] as Excel.Range).Text));
-                mycmt2gr.Parameters.AddWithValue("?f14", int.Parse((Range2.Cells[34, 3] as Excel.Range).Text));
+                mycmt2gr.Parameters.AddWithValue("?f1", int.Parse((Range2.Cells[24, 3] as Excel.Range).Text));
+                mycmt2gr.Parameters.AddWithValue("?f2", int.Parse((Range2.Cells[25, 3] as Excel.Range).Text));
+                mycmt2gr.Parameters.AddWithValue("?f3", int.Parse((Range2.Cells[26, 3] as Excel.Range).Text));
+                mycmt2gr.Parameters.AddWithValue("?f4", int.Parse((Range2.Cells[27, 3] as Excel.Range).Text));
+                mycmt2gr.Parameters.AddWithValue("?f5", int.Parse((Range2.Cells[28, 3] as Excel.Range).Text));
+                mycmt2gr.Parameters.AddWithValue("?f6", int.Parse((Range2.Cells[29, 3] as Excel.Range).Text));
+                mycmt2gr.Parameters.AddWithValue("?f7", int.Parse((Range2.Cells[30, 3] as Excel.Range).Text));
+                mycmt2gr.Parameters.AddWithValue("?f8", int.Parse((Range2.Cells[31, 3] as Excel.Range).Text));
+                mycmt2gr.Parameters.AddWithValue("?f9", int.Parse((Range2.Cells[32, 3] as Excel.Range).Text));
+                mycmt2gr.Parameters.AddWithValue("?f10", int.Parse((Range2.Cells[33, 3] as Excel.Range).Text));
+                mycmt2gr.Parameters.AddWithValue("?f11", int.Parse((Range2.Cells[34, 3] as Excel.Range).Text));
+                mycmt2gr.Parameters.AddWithValue("?f12", int.Parse((Range2.Cells[35, 3] as Excel.Range).Text));
+                mycmt2gr.Parameters.AddWithValue("?f13", int.Parse((Range2.Cells[36, 3] as Excel.Range).Text));
+                mycmt2gr.Parameters.AddWithValue("?f14", int.Parse((Range2.Cells[37, 3] as Excel.Range).Text));
                 mycmt2gr.ExecuteNonQuery();
                 mycmt2gr.Parameters.Clear();
 
                 mycmt3gr.Prepare();
                 mycmt3gr.CommandText = String.Format("insert into total_retention_3G(DateOfReport,Access,Antenna,Cabinet,DisasterDueToFire,DisasterDueToFlood,OwnerReaction,PeopleReaction,PPCIntention,Renovation,Shelter,Thievery,UnpaidBill,Vandalism,Reengineering) values (?date7_para,?f1,?f2,?f3,?f4,?f5,?f6,?f7,?f8,?f9,?f10,?f11,?f12,?f13,?f14)");
                 mycmt3gr.Parameters.AddWithValue("?date7_para", localdate);
-                mycmt3gr.Parameters.AddWithValue("?f1", int.Parse((Range2.Cells[38, 3] as Excel.Range).Text));
-                mycmt3gr.Parameters.AddWithValue("?f2", int.Parse((Range2.Cells[39, 3] as Excel.Range).Text));
-                mycmt3gr.Parameters.AddWithValue("?f3", int.Parse((Range2.Cells[40, 3] as Excel.Range).Text));
-                mycmt3gr.Parameters.AddWithValue("?f4", int.Parse((Range2.Cells[41, 3] as Excel.Range).Text));
-                mycmt3gr.Parameters.AddWithValue("?f5", int.Parse((Range2.Cells[42, 3] as Excel.Range).Text));
-                mycmt3gr.Parameters.AddWithValue("?f6", int.Parse((Range2.Cells[43, 3] as Excel.Range).Text));
-                mycmt3gr.Parameters.AddWithValue("?f7", int.Parse((Range2.Cells[44, 3] as Excel.Range).Text));
-                mycmt3gr.Parameters.AddWithValue("?f8", int.Parse((Range2.Cells[45, 3] as Excel.Range).Text));
-                mycmt3gr.Parameters.AddWithValue("?f9", int.Parse((Range2.Cells[46, 3] as Excel.Range).Text));
-                mycmt3gr.Parameters.AddWithValue("?f10", int.Parse((Range2.Cells[47, 3] as Excel.Range).Text));
-                mycmt3gr.Parameters.AddWithValue("?f11", int.Parse((Range2.Cells[48, 3] as Excel.Range).Text));
-                mycmt3gr.Parameters.AddWithValue("?f12", int.Parse((Range2.Cells[49, 3] as Excel.Range).Text));
-                mycmt3gr.Parameters.AddWithValue("?f13", int.Parse((Range2.Cells[50, 3] as Excel.Range).Text));
-                mycmt3gr.Parameters.AddWithValue("?f14", int.Parse((Range2.Cells[51, 3] as Excel.Range).Text));
+                mycmt3gr.Parameters.AddWithValue("?f1", int.Parse((Range2.Cells[41, 3] as Excel.Range).Text));
+                mycmt3gr.Parameters.AddWithValue("?f2", int.Parse((Range2.Cells[42, 3] as Excel.Range).Text));
+                mycmt3gr.Parameters.AddWithValue("?f3", int.Parse((Range2.Cells[43, 3] as Excel.Range).Text));
+                mycmt3gr.Parameters.AddWithValue("?f4", int.Parse((Range2.Cells[44, 3] as Excel.Range).Text));
+                mycmt3gr.Parameters.AddWithValue("?f5", int.Parse((Range2.Cells[45, 3] as Excel.Range).Text));
+                mycmt3gr.Parameters.AddWithValue("?f6", int.Parse((Range2.Cells[46, 3] as Excel.Range).Text));
+                mycmt3gr.Parameters.AddWithValue("?f7", int.Parse((Range2.Cells[47, 3] as Excel.Range).Text));
+                mycmt3gr.Parameters.AddWithValue("?f8", int.Parse((Range2.Cells[48, 3] as Excel.Range).Text));
+                mycmt3gr.Parameters.AddWithValue("?f9", int.Parse((Range2.Cells[49, 3] as Excel.Range).Text));
+                mycmt3gr.Parameters.AddWithValue("?f10", int.Parse((Range2.Cells[50, 3] as Excel.Range).Text));
+                mycmt3gr.Parameters.AddWithValue("?f11", int.Parse((Range2.Cells[51, 3] as Excel.Range).Text));
+                mycmt3gr.Parameters.AddWithValue("?f12", int.Parse((Range2.Cells[52, 3] as Excel.Range).Text));
+                mycmt3gr.Parameters.AddWithValue("?f13", int.Parse((Range2.Cells[53, 3] as Excel.Range).Text));
+                mycmt3gr.Parameters.AddWithValue("?f14", int.Parse((Range2.Cells[54, 3] as Excel.Range).Text));
                 mycmt3gr.ExecuteNonQuery();
                 mycmt3gr.Parameters.Clear();
 
                 mycmt4gr.Prepare();
                 mycmt4gr.CommandText = String.Format("insert into total_retention_4G(DateOfReport,Access,Antenna,Cabinet,DisasterDueToFire,DisasterDueToFlood,OwnerReaction,PeopleReaction,PPCIntention,Renovation,Shelter,Thievery,UnpaidBill,Vandalism,Reengineering) values (?date7_para,?f1,?f2,?f3,?f4,?f5,?f6,?f7,?f8,?f9,?f10,?f11,?f12,?f13,?f14)");
                 mycmt4gr.Parameters.AddWithValue("?date7_para", localdate);
-                mycmt4gr.Parameters.AddWithValue("?f1", int.Parse((Range2.Cells[55, 3] as Excel.Range).Text));
-                mycmt4gr.Parameters.AddWithValue("?f2", int.Parse((Range2.Cells[56, 3] as Excel.Range).Text));
-                mycmt4gr.Parameters.AddWithValue("?f3", int.Parse((Range2.Cells[57, 3] as Excel.Range).Text));
-                mycmt4gr.Parameters.AddWithValue("?f4", int.Parse((Range2.Cells[58, 3] as Excel.Range).Text));
-                mycmt4gr.Parameters.AddWithValue("?f5", int.Parse((Range2.Cells[59, 3] as Excel.Range).Text));
-                mycmt4gr.Parameters.AddWithValue("?f6", int.Parse((Range2.Cells[60, 3] as Excel.Range).Text));
-                mycmt4gr.Parameters.AddWithValue("?f7", int.Parse((Range2.Cells[61, 3] as Excel.Range).Text));
-                mycmt4gr.Parameters.AddWithValue("?f8", int.Parse((Range2.Cells[62, 3] as Excel.Range).Text));
-                mycmt4gr.Parameters.AddWithValue("?f9", int.Parse((Range2.Cells[63, 3] as Excel.Range).Text));
-                mycmt4gr.Parameters.AddWithValue("?f10", int.Parse((Range2.Cells[64, 3] as Excel.Range).Text));
-                mycmt4gr.Parameters.AddWithValue("?f11", int.Parse((Range2.Cells[65, 3] as Excel.Range).Text));
-                mycmt4gr.Parameters.AddWithValue("?f12", int.Parse((Range2.Cells[66, 3] as Excel.Range).Text));
-                mycmt4gr.Parameters.AddWithValue("?f13", int.Parse((Range2.Cells[67, 3] as Excel.Range).Text));
-                mycmt4gr.Parameters.AddWithValue("?f14", int.Parse((Range2.Cells[68, 3] as Excel.Range).Text));
+                mycmt4gr.Parameters.AddWithValue("?f1", int.Parse((Range2.Cells[58, 3] as Excel.Range).Text));
+                mycmt4gr.Parameters.AddWithValue("?f2", int.Parse((Range2.Cells[59, 3] as Excel.Range).Text));
+                mycmt4gr.Parameters.AddWithValue("?f3", int.Parse((Range2.Cells[60, 3] as Excel.Range).Text));
+                mycmt4gr.Parameters.AddWithValue("?f4", int.Parse((Range2.Cells[61, 3] as Excel.Range).Text));
+                mycmt4gr.Parameters.AddWithValue("?f5", int.Parse((Range2.Cells[62, 3] as Excel.Range).Text));
+                mycmt4gr.Parameters.AddWithValue("?f6", int.Parse((Range2.Cells[63, 3] as Excel.Range).Text));
+                mycmt4gr.Parameters.AddWithValue("?f7", int.Parse((Range2.Cells[64, 3] as Excel.Range).Text));
+                mycmt4gr.Parameters.AddWithValue("?f8", int.Parse((Range2.Cells[65, 3] as Excel.Range).Text));
+                mycmt4gr.Parameters.AddWithValue("?f9", int.Parse((Range2.Cells[66, 3] as Excel.Range).Text));
+                mycmt4gr.Parameters.AddWithValue("?f10", int.Parse((Range2.Cells[67, 3] as Excel.Range).Text));
+                mycmt4gr.Parameters.AddWithValue("?f11", int.Parse((Range2.Cells[68, 3] as Excel.Range).Text));
+                mycmt4gr.Parameters.AddWithValue("?f12", int.Parse((Range2.Cells[69, 3] as Excel.Range).Text));
+                mycmt4gr.Parameters.AddWithValue("?f13", int.Parse((Range2.Cells[70, 3] as Excel.Range).Text));
+                mycmt4gr.Parameters.AddWithValue("?f14", int.Parse((Range2.Cells[71, 3] as Excel.Range).Text));
                 mycmt4gr.ExecuteNonQuery();
                 mycmt4gr.Parameters.Clear();
 
@@ -566,7 +566,6 @@ namespace DBAdminTool
                 while (!String.IsNullOrEmpty((Range3.Cells[i_for_reasons, 4] as Excel.Range).Text))
                 {
                    
-                    mycmreasonsope.Prepare();
                     mycmreasonsope.CommandText = String.Format("insert into operational_affected(DateOfReport,SiteName,Region,IndicatorPrefArea,NameofPrefArea,Latitude,Longitude,Technology,Status,EventDateTime,OperationalReason,ActionsTaken,TTid,Comments) values (?date3_para,?i2,?i3,?i4,?name_para,?k1,?k2,?k3,?k4,?k5,?k6,?k7,?k8,?k9)");
                     mycmreasonsope.Parameters.AddWithValue("?date3_para", localdate);
                     mycmreasonsope.Parameters.AddWithValue("?i2", (Range3.Cells[i_for_reasons, 3] as Excel.Range).Text);
@@ -605,6 +604,7 @@ namespace DBAdminTool
                     mycmreasonsope.Parameters.AddWithValue("?k8", ((Range3.Cells[i_for_reasons, 14] as Excel.Range).Text));
                     mycmreasonsope.Parameters.AddWithValue("?k9", (Range3.Cells[i_for_reasons, 15] as Excel.Range).Text);
                    
+                    mycmreasonsope.Prepare();
                     mycmreasonsope.ExecuteNonQuery();
                     mycmreasonsope.Parameters.Clear();
 
@@ -617,7 +617,6 @@ namespace DBAdminTool
                 while (!String.IsNullOrEmpty((Range4.Cells[i_for_reasons, 4] as Excel.Range).Text))
                 {
                     
-                    mycmreasonsret.Prepare();
                     mycmreasonsret.CommandText = String.Format("insert into retention_affected(DateOfReport,SiteName,Region,IndicatorPrefArea,NameofPrefArea,Latitude,Longitude,Technology,Status,EventDateTime,RetentionReason,ActionsTaken,TTid,Comments) values (?date3_para,?i2,?i3,?i4,?name_para,?k1,?k2,?k3,?k4,?k5,?k6,?k7,?k8,?k9)");
                     mycmreasonsret.Parameters.AddWithValue("?date3_para", localdate);
                     mycmreasonsret.Parameters.AddWithValue("?i2", ((Range4.Cells[i_for_reasons, 3] as Excel.Range).Text));
@@ -652,6 +651,7 @@ namespace DBAdminTool
                     mycmreasonsret.Parameters.AddWithValue("?k8", ((Range4.Cells[i_for_reasons, 14] as Excel.Range).Text));
                     mycmreasonsret.Parameters.AddWithValue("?k9", ((Range4.Cells[i_for_reasons, 15] as Excel.Range).Text));
 
+                    mycmreasonsret.Prepare();
                     mycmreasonsret.ExecuteNonQuery();
                     mycmreasonsret.Parameters.Clear();
 
@@ -664,7 +664,6 @@ namespace DBAdminTool
                 while (!String.IsNullOrEmpty((Range5.Cells[i_for_reasons, 5] as Excel.Range).Text))
                 {
                     
-                    mycmreasonslic.Prepare();
                     mycmreasonslic.CommandText = String.Format("insert into licensing_affected(DateOfReport,SiteName,Region,IndicatorPrefArea,NameofPrefArea,Latitude,Longitude,Technology,Status,DeactivationDateTime,TTid,AffectedCoverage,ReactivationDate) values (?date3_para,?i2,?i3,?i4,?name_para,?k1,?k2,?k3,?k4,?k5,?k6,?k7,?k8)");
                     mycmreasonslic.Parameters.AddWithValue("?date3_para", localdate);
                     mycmreasonslic.Parameters.AddWithValue("?i2", ((Range5.Cells[i_for_reasons, 4] as Excel.Range).Text));
@@ -703,6 +702,7 @@ namespace DBAdminTool
                     mycmreasonslic.Parameters.AddWithValue("?k8",((Range5.Cells[i_for_reasons, 15] as Excel.Range).Text));
                     
 
+                    mycmreasonslic.Prepare();
                     mycmreasonslic.ExecuteNonQuery();
                     mycmreasonslic.Parameters.Clear();
 
@@ -713,10 +713,10 @@ namespace DBAdminTool
                 int i = 3, c;
                 while (!String.IsNullOrEmpty((Range.Cells[i, 7] as Excel.Range).Text))
                 {
-                    myquery.Prepare();
                     myquery.CommandText = String.Format("select * FROM prefecture WHERE Name=?nameq");
                     //add the title parameter to search
                     myquery.Parameters.AddWithValue("?nameq", (Range.Cells[i, 7] as Excel.Range).Text);
+                    myquery.Prepare();
                     try
                     {
 
@@ -733,6 +733,7 @@ namespace DBAdminTool
                             mycm3.Parameters.AddWithValue("?i5", double.Parse((Range.Cells[i, 5] as Excel.Range).Text));
                             mycm3.Parameters.AddWithValue("?i6", double.Parse((Range.Cells[i, 6] as Excel.Range).Text));
                             mycm3.Parameters.AddWithValue("?i7", ((Range.Cells[i, 7] as Excel.Range).Text));
+                            
                             mycm3.ExecuteNonQuery();
                             mycm3.Parameters.Clear();
                         }
@@ -753,7 +754,6 @@ namespace DBAdminTool
 
 
                     //prepare prefectures report
-                    mycm4.Prepare();
                     mycm4.CommandText = String.Format("insert into prefecture_report(DateOfReport,Available2G,Available3G,Available4G,Name,Operational2G,Operational3G,Operational4G,Retention2G,Retention3G,Retention4G,Licensing2G,Licensing3G,Licensing4G,Unavailable2G,Unavailable3G,Unavailable4G) values (?date3_para,?i2,?i3,?i4,?name_para,?k1,?k2,?k3,?k4,?k5,?k6,?k7,?k8,?k9,?k10,?k11,?k12)");
                     mycm4.Parameters.AddWithValue("?date3_para", localdate);
                     mycm4.Parameters.AddWithValue("?i2", int.Parse((Range.Cells[i, 2] as Excel.Range).Text));
@@ -770,16 +770,16 @@ namespace DBAdminTool
                     mycm4.Parameters.AddWithValue("?k7", int.Parse((Range.Cells[i, 106] as Excel.Range).Text));
                     mycm4.Parameters.AddWithValue("?k8", int.Parse((Range.Cells[i, 107] as Excel.Range).Text));
                     mycm4.Parameters.AddWithValue("?k9", int.Parse((Range.Cells[i, 108] as Excel.Range).Text));
-                    mycm4.Parameters.AddWithValue("?k10", int.Parse((Range.Cells[i, 111] as Excel.Range).Text));
-                    mycm4.Parameters.AddWithValue("?k11", int.Parse((Range.Cells[i, 112] as Excel.Range).Text));
-                    mycm4.Parameters.AddWithValue("?k12", int.Parse((Range.Cells[i, 113] as Excel.Range).Text));
+                    mycm4.Parameters.AddWithValue("?k10", int.Parse((Range.Cells[i, 110] as Excel.Range).Text));
+                    mycm4.Parameters.AddWithValue("?k11", int.Parse((Range.Cells[i, 111] as Excel.Range).Text));
+                    mycm4.Parameters.AddWithValue("?k12", int.Parse((Range.Cells[i, 112] as Excel.Range).Text));
+                    mycm4.Prepare();
                     mycm4.ExecuteNonQuery();
                     mycm4.Parameters.Clear();
 
 
 
                     //Prepare Operational Cards
-                    mycm5.Prepare();
                     mycm5.CommandText = String.Format("insert into operational_2G(DateOfReport,Antenna,CosmotePowerProblem,Disinfection,FiberCut,GeneratorFailure,Link,LinkDueToPowerProblem,OTEProblem,PowerProblem,PPCPowerFailure,Quality,RBSProblem,Temperature,VodafoneLinkProblem,VodafonePowerProblem,Modem) values (?date4_para,?p1,?p2,?p3,?p4,?p5,?p6,?p7,?p8,?p9,?p10,?p11,?p12,?p13,?p14,?p15,?p16)");
                     mycm5.Parameters.AddWithValue("?date4_para", localdate);
                     mycm5.Parameters.AddWithValue("?p1", int.Parse((Range.Cells[i, 11] as Excel.Range).Text));
@@ -798,12 +798,12 @@ namespace DBAdminTool
                     mycm5.Parameters.AddWithValue("?p14", int.Parse((Range.Cells[i, 24] as Excel.Range).Text));
                     mycm5.Parameters.AddWithValue("?p15", int.Parse((Range.Cells[i, 25] as Excel.Range).Text));
                     mycm5.Parameters.AddWithValue("?p16", int.Parse((Range.Cells[i, 26] as Excel.Range).Text));
+                    mycm5.Prepare();
                     mycm5.ExecuteNonQuery();
                     mycm5.Parameters.Clear();
 
 
 
-                    mycm6.Prepare();
                     mycm6.CommandText = String.Format("insert into operational_3G(DateOfReport,Antenna,CosmotePowerProblem,Disinfection,FiberCut,GeneratorFailure,Link,LinkDueToPowerProblem,OTEProblem,PowerProblem,PPCPowerFailure,Quality,RBSProblem,Temperature,VodafoneLinkProblem,VodafonePowerProblem,Modem) values (?date5_para,?s1,?s2,?s3,?s4,?s5,?s6,?s7,?s8,?s9,?s10,?s11,?s12,?s13,?s14,?s15,?s16)");
                     mycm6.Parameters.AddWithValue("?date5_para", localdate);
                     mycm6.Parameters.AddWithValue("?s1", int.Parse((Range.Cells[i, 27] as Excel.Range).Text));
@@ -822,13 +822,13 @@ namespace DBAdminTool
                     mycm6.Parameters.AddWithValue("?s14", int.Parse((Range.Cells[i, 40] as Excel.Range).Text));
                     mycm6.Parameters.AddWithValue("?s15", int.Parse((Range.Cells[i, 41] as Excel.Range).Text));
                     mycm6.Parameters.AddWithValue("?s16", int.Parse((Range.Cells[i, 42] as Excel.Range).Text));
+                    mycm6.Prepare();
                     mycm6.ExecuteNonQuery();
                     mycm6.Parameters.Clear();
 
 
 
 
-                    mycm7.Prepare();
                     mycm7.CommandText = String.Format("insert into operational_4G(DateOfReport,Antenna,CosmotePowerProblem,Disinfection,FiberCut,GeneratorFailure,Link,LinkDueToPowerProblem,OTEProblem,PowerProblem,PPCPowerFailure,Quality,RBSProblem,Temperature,VodafoneLinkProblem,VodafonePowerProblem,Modem) values (?date6_para,?d1,?d2,?d3,?d4,?d5,?d6,?d7,?d8,?d9,?d10,?d11,?d12,?d13,?d14,?d15,?d16)");
                     mycm7.Parameters.AddWithValue("?date6_para", localdate);
                     mycm7.Parameters.AddWithValue("?d1", int.Parse((Range.Cells[i, 43] as Excel.Range).Text));
@@ -847,11 +847,11 @@ namespace DBAdminTool
                     mycm7.Parameters.AddWithValue("?d14", int.Parse((Range.Cells[i, 56] as Excel.Range).Text));
                     mycm7.Parameters.AddWithValue("?d15", int.Parse((Range.Cells[i, 57] as Excel.Range).Text));
                     mycm7.Parameters.AddWithValue("?d16", int.Parse((Range.Cells[i, 58] as Excel.Range).Text));
+                    mycm7.Prepare();
                     mycm7.ExecuteNonQuery();
                     mycm7.Parameters.Clear();
 
                     //Prepare retention Cards
-                    mycm8.Prepare();
                     mycm8.CommandText = String.Format("insert into retention_2G(DateOfReport,Access,Antenna,Cabinet,DisasterDueToFire,DisasterDueToFlood,OwnerReaction,PeopleReaction,PPCIntention,Renovation,Shelter,Thievery,UnpaidBill,Vandalism,Reengineering) values (?date7_para,?f1,?f2,?f3,?f4,?f5,?f6,?f7,?f8,?f9,?f10,?f11,?f12,?f13,?f14)");
                     mycm8.Parameters.AddWithValue("?date7_para", localdate);
                     mycm8.Parameters.AddWithValue("?f1", int.Parse((Range.Cells[i, 63] as Excel.Range).Text));
@@ -868,11 +868,11 @@ namespace DBAdminTool
                     mycm8.Parameters.AddWithValue("?f12", int.Parse((Range.Cells[i, 74] as Excel.Range).Text));
                     mycm8.Parameters.AddWithValue("?f13", int.Parse((Range.Cells[i, 75] as Excel.Range).Text));
                     mycm8.Parameters.AddWithValue("?f14", int.Parse((Range.Cells[i, 76] as Excel.Range).Text));
+                    mycm8.Prepare();
                     mycm8.ExecuteNonQuery();
                     mycm8.Parameters.Clear();
 
 
-                    mycm9.Prepare();
                     mycm9.CommandText = String.Format("insert into retention_3G(DateOfReport,Access,Antenna,Cabinet,DisasterDueToFire,DisasterDueToFlood,OwnerReaction,PeopleReaction,PPCIntention,Renovation,Shelter,Thievery,UnpaidBill,Vandalism,Reengineering) values (?date8_para,?z1,?z2,?z3,?z4,?z5,?z6,?z7,?z8,?z9,?z10,?z11,?z12,?z13,?z14)");
                     mycm9.Parameters.AddWithValue("?date8_para", localdate);
                     mycm9.Parameters.AddWithValue("?z1", int.Parse((Range.Cells[i, 77] as Excel.Range).Text));
@@ -889,11 +889,11 @@ namespace DBAdminTool
                     mycm9.Parameters.AddWithValue("?z12", int.Parse((Range.Cells[i, 88] as Excel.Range).Text));
                     mycm9.Parameters.AddWithValue("?z13", int.Parse((Range.Cells[i, 89] as Excel.Range).Text));
                     mycm9.Parameters.AddWithValue("?z14", int.Parse((Range.Cells[i, 90] as Excel.Range).Text));
+                    mycm9.Prepare();
                     mycm9.ExecuteNonQuery();
                     mycm9.Parameters.Clear();
 
 
-                    mycm10.Prepare();
                     mycm10.CommandText = String.Format("insert into retention_4G(DateOfReport,Access,Antenna,Cabinet,DisasterDueToFire,DisasterDueToFlood,OwnerReaction,PeopleReaction,PPCIntention,Renovation,Shelter,Thievery,UnpaidBill,Vandalism,Reengineering) values (?date9_para,?x1,?x2,?x3,?x4,?x5,?x6,?x7,?x8,?x9,?x10,?x11,?x12,?x13,?x14)");
                     mycm10.Parameters.AddWithValue("?date9_para", localdate);
                     mycm10.Parameters.AddWithValue("?x1", int.Parse((Range.Cells[i, 91] as Excel.Range).Text));
@@ -910,6 +910,7 @@ namespace DBAdminTool
                     mycm10.Parameters.AddWithValue("?x12", int.Parse((Range.Cells[i, 102] as Excel.Range).Text));
                     mycm10.Parameters.AddWithValue("?x13", int.Parse((Range.Cells[i, 103] as Excel.Range).Text));
                     mycm10.Parameters.AddWithValue("?x14", int.Parse((Range.Cells[i, 104] as Excel.Range).Text));
+                    mycm10.Prepare();
                     mycm10.ExecuteNonQuery();
                     mycm10.Parameters.Clear();
 
