@@ -210,7 +210,7 @@ namespace DBAdminTool
         private void button2_Click(object sender, EventArgs e)
         {
             string localdatebackup = DateTime.Today.Day.ToString() + DateTime.Today.Month.ToString() + DateTime.Today.Year.ToString();
-            string conString = "SERVER=10.66.3.167;DATABASE=wind;UID=root;Password=ZAQ!2wsx;";
+            string conString = "SERVER=10.66.8.137;DATABASE=wind;UID=root;Password=ZAQ!2wsx;";
             string file = "C:\\Users\\DiamantisK\\Desktop\\" + localdatebackup + "backup.sql";
             MySqlConnection conn = new MySqlConnection(conString);
             MySqlCommand cmd = new MySqlCommand();
@@ -333,7 +333,7 @@ namespace DBAdminTool
         public MySqlConnection getConnection()
         {
             //open a connection to the localhost mysql database that I created with the Create Table statement
-            string myConnectionString = "SERVER=10.66.3.167;DATABASE=wind;UID=root;Password=ZAQ!2wsx;";
+            string myConnectionString = "SERVER=10.66.8.137;DATABASE=wind;UID=root;Password=ZAQ!2wsx;";
             MySqlConnection conn = new MySqlConnection(myConnectionString);
             return conn;
         }
