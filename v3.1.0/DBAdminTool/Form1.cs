@@ -403,9 +403,13 @@ namespace DBAdminTool
                 mycm.Parameters.Clear();
 
 
+                // Worksheet : Data Table -2
                 //availability
                 mycm1.Prepare();
-                mycm1.CommandText = String.Format("insert into availability(DateOfReport,Unavailable2G,Unavailable3G,Unavailable4G,Unavailable2GOperational,Unavailable2GRetention,Unavailable2GLicensing,Unavailable3GOperational,Unavailable3GRetention,Unavailable3GLicensing,Unavailable4GOperational,Unavailable4GRetention,Unavailable4GLicensing) values (?date1_para,?g2,?g3,?g4,?g2o,?g2r,?g2l,?g3o,?g3r,?g3l,?g4o,?g4r,?g4l)");
+                mycm1.CommandText = String.Format("insert into availability(DateOfReport,Unavailable2G,Unavailable3G," +
+                    "Unavailable4G,Unavailable2GOperational,Unavailable2GRetention,Unavailable2GLicensing,Unavailable3GOperational,Unavailable3GRetention," +
+                    "Unavailable3GLicensing,Unavailable4GOperational,Unavailable4GRetention,Unavailable4GLicensing, Unavailable2GDeact, Unavailable3GDeact, Unavailable4GDeact) " +
+                    "values (?date1_para,?g2,?g3,?g4,?g2o,?g2r,?g2l,?g3o,?g3r,?g3l,?g4o,?g4r,?g4l,?g2u,?g3u,?g4u)");
                 mycm1.Parameters.AddWithValue("?date1_para", localdate);
                 mycm1.Parameters.AddWithValue("?g2", int.Parse((Range2.Cells[6, 3] as Excel.Range).Text));
                 mycm1.Parameters.AddWithValue("?g3", int.Parse((Range2.Cells[7, 3] as Excel.Range).Text));
@@ -419,6 +423,11 @@ namespace DBAdminTool
                 mycm1.Parameters.AddWithValue("?g2l", int.Parse((Range2.Cells[15, 3] as Excel.Range).Text));
                 mycm1.Parameters.AddWithValue("?g3l", int.Parse((Range2.Cells[16, 3] as Excel.Range).Text));
                 mycm1.Parameters.AddWithValue("?g4l", int.Parse((Range2.Cells[17, 3] as Excel.Range).Text));
+
+                mycm1.Parameters.AddWithValue("?g2u", int.Parse((Range2.Cells[18, 3] as Excel.Range).Text));
+                mycm1.Parameters.AddWithValue("?g3u", int.Parse((Range2.Cells[19, 3] as Excel.Range).Text));
+                mycm1.Parameters.AddWithValue("?g4u", int.Parse((Range2.Cells[20, 3] as Excel.Range).Text));
+
                 mycm1.ExecuteNonQuery();
                 mycm1.Parameters.Clear();
 
@@ -560,7 +569,7 @@ namespace DBAdminTool
                 mycmt4gr.ExecuteNonQuery();
                 mycmt4gr.Parameters.Clear();
 
-
+                //Operational Worksheet
                 //operational tab
                 int i_for_reasons = 4;
                 while (!String.IsNullOrEmpty((Range3.Cells[i_for_reasons, 4] as Excel.Range).Text))
@@ -754,25 +763,59 @@ namespace DBAdminTool
 
 
                     //prepare prefectures report
-                    mycm4.CommandText = String.Format("insert into prefecture_report(DateOfReport,Available2G,Available3G,Available4G,Name,Operational2G,Operational3G,Operational4G,Retention2G,Retention3G,Retention4G,Licensing2G,Licensing3G,Licensing4G,Unavailable2G,Unavailable3G,Unavailable4G) values (?date3_para,?i2,?i3,?i4,?name_para,?k1,?k2,?k3,?k4,?k5,?k6,?k7,?k8,?k9,?k10,?k11,?k12)");
+                    mycm4.CommandText = String.Format("insert into prefecture_report(" +
+                        "DateOfReport," +
+                        "Available2G," +
+                        "Available3G," +
+                        "Available4G," +
+                        "Name," +
+                        "Operational2G," +
+                        "Operational3G," +
+                        "Operational4G," +
+                        "Retention2G," +
+                        "Retention3G," +
+                        "Retention4G," +
+                        "Licensing2G," +
+                        "Licensing3G," +
+                        "Licensing4G," +
+                        "Unavailable2G," +
+                        "Unavailable3G," +
+                        "Unavailable4G, " +
+                        "Unavailable2GDeact, " +
+                        "Unavailable3GDeact, " +
+                        "Unavailable4GDeact) " +
+                        "values (?date3_para,?i2,?i3,?i4,?name_para,?k1,?k2,?k3,?k4,?k5,?k6,?k7,?k8,?k9,?k10,?k11,?k12, ?k13, ?k14, ?k15)");
                     mycm4.Parameters.AddWithValue("?date3_para", localdate);
                     mycm4.Parameters.AddWithValue("?i2", int.Parse((Range.Cells[i, 2] as Excel.Range).Text));
                     mycm4.Parameters.AddWithValue("?i3", int.Parse((Range.Cells[i, 3] as Excel.Range).Text));
                     mycm4.Parameters.AddWithValue("?i4", int.Parse((Range.Cells[i, 4] as Excel.Range).Text));
                     mycm4.Parameters.AddWithValue("?name_para", (Range.Cells[i, 7] as Excel.Range).Text);
                     
+                    // Operational 2G/3G/4G
                     mycm4.Parameters.AddWithValue("?k1", int.Parse((Range.Cells[i, 8] as Excel.Range).Text));
                     mycm4.Parameters.AddWithValue("?k2", int.Parse((Range.Cells[i, 9] as Excel.Range).Text));
                     mycm4.Parameters.AddWithValue("?k3", int.Parse((Range.Cells[i, 10] as Excel.Range).Text));
+
+                    // Retention 2G/3G/4G
                     mycm4.Parameters.AddWithValue("?k4", int.Parse((Range.Cells[i, 60] as Excel.Range).Text));
                     mycm4.Parameters.AddWithValue("?k5", int.Parse((Range.Cells[i, 61] as Excel.Range).Text));
                     mycm4.Parameters.AddWithValue("?k6", int.Parse((Range.Cells[i, 62] as Excel.Range).Text));
+
+                    // Licensing 2G/3G/4G
                     mycm4.Parameters.AddWithValue("?k7", int.Parse((Range.Cells[i, 106] as Excel.Range).Text));
                     mycm4.Parameters.AddWithValue("?k8", int.Parse((Range.Cells[i, 107] as Excel.Range).Text));
                     mycm4.Parameters.AddWithValue("?k9", int.Parse((Range.Cells[i, 108] as Excel.Range).Text));
-                    mycm4.Parameters.AddWithValue("?k10", int.Parse((Range.Cells[i, 110] as Excel.Range).Text));
-                    mycm4.Parameters.AddWithValue("?k11", int.Parse((Range.Cells[i, 111] as Excel.Range).Text));
-                    mycm4.Parameters.AddWithValue("?k12", int.Parse((Range.Cells[i, 112] as Excel.Range).Text));
+
+                    // Unavailable 2G/3G/4G
+                    mycm4.Parameters.AddWithValue("?k10", int.Parse((Range.Cells[i, 115] as Excel.Range).Text));
+                    mycm4.Parameters.AddWithValue("?k11", int.Parse((Range.Cells[i, 116] as Excel.Range).Text));
+                    mycm4.Parameters.AddWithValue("?k12", int.Parse((Range.Cells[i, 117] as Excel.Range).Text));
+
+                    // Deact 2G/3G/4G
+                    mycm4.Parameters.AddWithValue("?k13", int.Parse((Range.Cells[i, 110] as Excel.Range).Text));
+                    mycm4.Parameters.AddWithValue("?k14", int.Parse((Range.Cells[i, 111] as Excel.Range).Text));
+                    mycm4.Parameters.AddWithValue("?k15", int.Parse((Range.Cells[i, 112] as Excel.Range).Text));
+
                     mycm4.Prepare();
                     mycm4.ExecuteNonQuery();
                     mycm4.Parameters.Clear();
